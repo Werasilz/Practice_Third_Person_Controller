@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16312 MB
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16344 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,61 +11,61 @@ C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Works/My Projects/Third Person Controller
+C:/Users/zen_f/Documents/GitHub/Practice_Third_Person_Controller
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60433
-Successfully changed project path to: C:/Works/My Projects/Third Person Controller
-C:/Works/My Projects/Third Person Controller
+62473
+Successfully changed project path to: C:/Users/zen_f/Documents/GitHub/Practice_Third_Person_Controller
+C:/Users/zen_f/Documents/GitHub/Practice_Third_Person_Controller
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Works/My Projects/Third Person Controller/Assets
+[Subsystems] Discovering subsystems at path C:/Users/zen_f/Documents/GitHub/Practice_Third_Person_Controller/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     12143 MB
+    VRAM:     8079 MB
     Driver:   30.0.14.7111
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002229 seconds.
+Registered in 0.001698 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.866 seconds
+- Completed reload, in  1.571 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003789 seconds.
+Registered in 0.003799 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
+- Completed reload, in  0.956 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.7 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 2332.
-Total: 2.061800 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.682900 ms  DeleteObjects: 0.151000 ms)
+Total: 2.206100 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.777300 ms  DeleteObjects: 0.162100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,58 +79,434 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/CameraRig.prefab
-  artifactKey: Guid(bfa85bd12028efe47a5ec003c09f57fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CameraRig.prefab using Guid(bfa85bd12028efe47a5ec003c09f57fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa3a497f3a094327e5e9203a0854ee7') in 0.049923 seconds 
-  Import took 0.052846 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(8a37dd426ba0311408c152a454be32be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8a37dd426ba0311408c152a454be32be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f339b19a22ffb3fecd0b221df86caf77') in 0.007917 seconds 
+  Import took 0.010564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001029 seconds.
-  path: Assets/Scenes/TestAnimations.unity
-  artifactKey: Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestAnimations.unity using Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cd39ec29b584a8649dfff414367a5c') in 0.020854 seconds 
-  Import took 0.023731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(34660e4dd0c0ac04c9105ed216874e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(34660e4dd0c0ac04c9105ed216874e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c905d4aa7d8d8182e172ba18461f784') in 0.340615 seconds 
-  Import took 0.343486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c589c1bcf0846a96d11c356a0a1a3e') in 0.002854 seconds 
-  Import took 0.005397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.058109 seconds.
+  Time since last request: 0.000161 seconds.
   path: Assets/Scenes/Main.unity
   artifactKey: Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57baa6023926d9b7033172d59785782d') in 0.002942 seconds 
-  Import took 0.005751 seconds .
+Start importing Assets/Scenes/Main.unity using Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17ef1c17ad6cbc7926555f390dd136a') in 0.006907 seconds 
+  Import took 0.009733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002589 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(fd18362dd61813d44b240898be468bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57baa6023926d9b7033172d59785782d') in 0.002668 seconds 
-  Import took 0.005471 seconds .
+  Time since last request: 21.704799 seconds.
+  path: Assets/Animations/Player/Idle.FBX
+  artifactKey: Guid(c8b00357552db4b4d9eba9edd6033d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Idle.FBX using Guid(c8b00357552db4b4d9eba9edd6033d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368d5c611f663cbd3e27e9c2b16aa1f0') in 0.039836 seconds 
+  Import took 0.043129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Animations/Player/Run.FBX
+  artifactKey: Guid(f20eab22a0fe35749b5357deb3e88eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Run.FBX using Guid(f20eab22a0fe35749b5357deb3e88eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88e55fd2167822895f3996583aff5bf') in 0.010535 seconds 
+  Import took 0.013387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.955471 seconds.
+  path: Assets/Animations/Player/PlayerAnimTest.controller
+  artifactKey: Guid(ce2786c1f52935148b78d13f442985ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/PlayerAnimTest.controller using Guid(ce2786c1f52935148b78d13f442985ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f50e2dd6c1965d13705ecff4b6c0d') in 0.021642 seconds 
+  Import took 0.024705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.503609 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Air_Attack01_Inplace.FBX
+  artifactKey: Guid(89b304dfb001d1b478eb76f1e9fb9803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Air_Attack01_Inplace.FBX using Guid(89b304dfb001d1b478eb76f1e9fb9803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aeb95c5da8882e707f1eb6cb04e64f') in 0.011770 seconds 
+  Import took 0.015261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Execution1_Inplace.FBX
+  artifactKey: Guid(f1f77cd9b7f50474dafd52307bb1d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Execution1_Inplace.FBX using Guid(f1f77cd9b7f50474dafd52307bb1d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b4e342ec6697064e0afeff78f73e76') in 0.019921 seconds 
+  Import took 0.023155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Enhance_Inplace.FBX
+  artifactKey: Guid(68298b88568a87d4fad3d8a0dc40bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Enhance_Inplace.FBX using Guid(68298b88568a87d4fad3d8a0dc40bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6947dde8f5d527fabd93729d36d4977a') in 0.011019 seconds 
+  Import took 0.014762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack09_Inplace.FBX
+  artifactKey: Guid(dfb902eabd5499148875c99e3201216f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack09_Inplace.FBX using Guid(dfb902eabd5499148875c99e3201216f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a650de3797198ec5028ffc6303c12a') in 0.017244 seconds 
+  Import took 0.020359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_End_Inplace.FBX
+  artifactKey: Guid(df015262be4ffd945985957a1ed1531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_End_Inplace.FBX using Guid(df015262be4ffd945985957a1ed1531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0086e666e2040273a220ac1f5963c7a') in 0.012821 seconds 
+  Import took 0.015890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack06_Inplace.FBX
+  artifactKey: Guid(cea8de38cfe5d3f49a974c40d66b3085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack06_Inplace.FBX using Guid(cea8de38cfe5d3f49a974c40d66b3085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc3da9d9b1293ae90f5c173d4428a61') in 0.016049 seconds 
+  Import took 0.019448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack1_Inplace.FBX
+  artifactKey: Guid(7195f250fd81d58459b33dddefc4e470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack1_Inplace.FBX using Guid(7195f250fd81d58459b33dddefc4e470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c073ebda4530ab254a4945a3d8fbcfc9') in 0.016967 seconds 
+  Import took 0.019798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_PowerEnd2_Inplace.FBX
+  artifactKey: Guid(3e5c40024219ac340ad7bb3c88a7b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_PowerEnd2_Inplace.FBX using Guid(3e5c40024219ac340ad7bb3c88a7b9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5024283f3718bf6fdcd07a5663bd37c') in 0.015302 seconds 
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Idle_1_Inplace.FBX
+  artifactKey: Guid(937763e938223274cba45780e297c6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Idle_1_Inplace.FBX using Guid(937763e938223274cba45780e297c6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a9ba5792eb428488bef3785267e201') in 0.010903 seconds 
+  Import took 0.013710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Air_Attack01_Inplace.FBX
+  artifactKey: Guid(89b304dfb001d1b478eb76f1e9fb9803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Air_Attack01_Inplace.FBX using Guid(89b304dfb001d1b478eb76f1e9fb9803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aeb95c5da8882e707f1eb6cb04e64f') in 0.007387 seconds 
+  Import took 0.010115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Idle_Inplace.FBX
+  artifactKey: Guid(9f91273065fe23e48897e714ff7f8d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Idle_Inplace.FBX using Guid(9f91273065fe23e48897e714ff7f8d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2929049a3a5c29beac4069667bc0083') in 0.011919 seconds 
+  Import took 0.015709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Attack03_Inplace.FBX
+  artifactKey: Guid(93e84c164f2be5a4bbb91823b5bf709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Attack03_Inplace.FBX using Guid(93e84c164f2be5a4bbb91823b5bf709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ec90e84a85228f02dcbd7e38cf0090') in 0.020310 seconds 
+  Import took 0.023649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Loop_Inplace.FBX
+  artifactKey: Guid(bdf1ab8e0bd103f42a3823671a747b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Loop_Inplace.FBX using Guid(bdf1ab8e0bd103f42a3823671a747b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6651763860bfbd76eb3b850d5d173138') in 0.010469 seconds 
+  Import took 0.013423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Air_Attack02_Inplace.FBX
+  artifactKey: Guid(9b11a13cfa0cbba45a7cc5df85180b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Air_Attack02_Inplace.FBX using Guid(9b11a13cfa0cbba45a7cc5df85180b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317d6d9fac0932fe6c3f36b8f958e2bb') in 0.011953 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack1_2_Inplace.FBX
+  artifactKey: Guid(98ab090b6acd7f24e95fc748183bd2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack1_2_Inplace.FBX using Guid(98ab090b6acd7f24e95fc748183bd2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce34716717da1bb48b0ce8264256cf1') in 0.016816 seconds 
+  Import took 0.019908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Executed3_Inplace.FBX
+  artifactKey: Guid(45bc8bec9e988eb4b96d3c1c3f8465b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Executed3_Inplace.FBX using Guid(45bc8bec9e988eb4b96d3c1c3f8465b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d7ff4559675a9e5b0519a741119698') in 0.018084 seconds 
+  Import took 0.021093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Executed2_Inplace.FBX
+  artifactKey: Guid(84449af47bc9b3d46bac6ad30410caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Executed2_Inplace.FBX using Guid(84449af47bc9b3d46bac6ad30410caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8136c0f73281d48a4d9e009ad593a88') in 0.020197 seconds 
+  Import took 0.023555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack2_1_Inplace.FBX
+  artifactKey: Guid(14b412d6dfe95424290d73472a21a71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack2_1_Inplace.FBX using Guid(14b412d6dfe95424290d73472a21a71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719847edba080451b19fc7a6304b207a') in 0.022278 seconds 
+  Import took 0.026097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Start_Inplace.FBX
+  artifactKey: Guid(7b3cb87633a36694db012bdacdf5813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Start_Inplace.FBX using Guid(7b3cb87633a36694db012bdacdf5813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82d1f5717c8a4855cb61c014dc3ff20') in 0.010584 seconds 
+  Import took 0.013489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_Loop_Inplace.FBX
+  artifactKey: Guid(793791b1c2e97ba43a09fa703be6ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_Loop_Inplace.FBX using Guid(793791b1c2e97ba43a09fa703be6ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97658fe153ffe1fbff8c2b1fbae5af5') in 0.009116 seconds 
+  Import took 0.012031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Start_Inplace.FBX
+  artifactKey: Guid(eb4608c257afa654a9f2a4f52c09f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Start_Inplace.FBX using Guid(eb4608c257afa654a9f2a4f52c09f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3806b792752cdbf69cdcad719fb4621e') in 0.009609 seconds 
+  Import took 0.012573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Executed1_Inplace.FBX
+  artifactKey: Guid(40eaf0581bc959a4a9c198abbfe07bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Executed1_Inplace.FBX using Guid(40eaf0581bc959a4a9c198abbfe07bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc62e504c2f738af30b8e87857fb387') in 0.019494 seconds 
+  Import took 0.022962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack03_Inplace.FBX
+  artifactKey: Guid(3cdf32e14c807e04b9bb519117a8ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack03_Inplace.FBX using Guid(3cdf32e14c807e04b9bb519117a8ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b30b77bc6320a287eed829899b884d3') in 0.015831 seconds 
+  Import took 0.018823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack2_Inplace.FBX
+  artifactKey: Guid(0314b367cf372bf4ea0c80528abce2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_SPAttack2_Inplace.FBX using Guid(0314b367cf372bf4ea0c80528abce2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684a9abe27d7a3fe0ed2735d5996c3f2') in 0.017232 seconds 
+  Import took 0.020268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack07_Inplace.FBX
+  artifactKey: Guid(ee43c55707ffd514ba14ad902ff06904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack07_Inplace.FBX using Guid(ee43c55707ffd514ba14ad902ff06904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1410e08ce5ea53282ed24201ef3bb237') in 0.014921 seconds 
+  Import took 0.017755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack08_Inplace.FBX
+  artifactKey: Guid(6daec0d6cab72584295d6a2ac966846c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack08_Inplace.FBX using Guid(6daec0d6cab72584295d6a2ac966846c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eebf940450987c95971076b2af2c08') in 0.014845 seconds 
+  Import took 0.017862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Attack02_Inplace.FBX
+  artifactKey: Guid(78a9be30a4f040946b5c5eec1a8e2dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Attack02_Inplace.FBX using Guid(78a9be30a4f040946b5c5eec1a8e2dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e01b3f1cf793baadc0bb0b18bf35cb') in 0.015682 seconds 
+  Import took 0.019546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Attack01_Inplace.FBX
+  artifactKey: Guid(832dfd035029b74469c45e3c0c4c18b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Attack01_Inplace.FBX using Guid(832dfd035029b74469c45e3c0c4c18b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccd1666739c7f37b9927c02feb9c9ac') in 0.016543 seconds 
+  Import took 0.019495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Stop_Inplace.FBX
+  artifactKey: Guid(6b40481de7a91684c9e43a57735cc2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Stop_Inplace.FBX using Guid(6b40481de7a91684c9e43a57735cc2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b334e24ec3373cd7ea9ddc16d8b2f5f2') in 0.011430 seconds 
+  Import took 0.014240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack04_Inplace.FBX
+  artifactKey: Guid(d8b84a30ffa26aa43af2558bd99462dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack04_Inplace.FBX using Guid(d8b84a30ffa26aa43af2558bd99462dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec46a1a25720be6b6118b0c03cc12bb4') in 0.014582 seconds 
+  Import took 0.017372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack10_Inplace.FBX
+  artifactKey: Guid(fc63590e85812064e9787cc7423e132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack10_Inplace.FBX using Guid(fc63590e85812064e9787cc7423e132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877ad7c11531d563082c3405ef49a4e6') in 0.015227 seconds 
+  Import took 0.018253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Execution3_Inplace.FBX
+  artifactKey: Guid(e55922439d6407a42aec9462c1adfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Execution3_Inplace.FBX using Guid(e55922439d6407a42aec9462c1adfb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92f82571ab40df29f83d605955a35da') in 0.018918 seconds 
+  Import took 0.022102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack12_Inplace.FBX
+  artifactKey: Guid(74ae5342c336a904fab4cc4acdc373d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack12_Inplace.FBX using Guid(74ae5342c336a904fab4cc4acdc373d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d8c0f610c4624bdd053360367292da') in 0.019416 seconds 
+  Import took 0.022396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack05_Inplace.FBX
+  artifactKey: Guid(bef9a86ae74a87d4bb140e076e1491cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack05_Inplace.FBX using Guid(bef9a86ae74a87d4bb140e076e1491cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b6324118fa9f5ca68346eeedbe256d') in 0.017488 seconds 
+  Import took 0.020680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Attack01_Inplace.FBX
+  artifactKey: Guid(e260d26d02c6b6f4691d2fdba5051c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Attack01_Inplace.FBX using Guid(e260d26d02c6b6f4691d2fdba5051c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca756e4b9febefd32d5290c7318a13cd') in 0.014519 seconds 
+  Import took 0.017457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Execution2_Inplace.FBX
+  artifactKey: Guid(35df332b5645c8643ae5c234bd5e60cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Execution2_Inplace.FBX using Guid(35df332b5645c8643ae5c234bd5e60cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddafe0a92742423bdf31762c33dce714') in 0.019092 seconds 
+  Import took 0.021908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack01_Inplace.FBX
+  artifactKey: Guid(f88f0459e327b634fb6b1ce643af9fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack01_Inplace.FBX using Guid(f88f0459e327b634fb6b1ce643af9fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193997cc6e08637a9bda73a6a4f085aa') in 0.014085 seconds 
+  Import took 0.016812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Ambushed_Inplace.FBX
+  artifactKey: Guid(eeb316018ff2f864992ef94e3e8ecbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Ambushed_Inplace.FBX using Guid(eeb316018ff2f864992ef94e3e8ecbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a79d945469b783bdba9f59fbe4cbff0') in 0.015249 seconds 
+  Import took 0.018097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Loop_Inplace.FBX
+  artifactKey: Guid(f40d2f46ee2dcb84c87348f1a73a7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Loop_Inplace.FBX using Guid(f40d2f46ee2dcb84c87348f1a73a7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ad6e124df91361b8954714288ff83d') in 0.010762 seconds 
+  Import took 0.013670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_PowerEnd1_Inplace.FBX
+  artifactKey: Guid(d0d532ea2cb2a2c4e830b41c1f81a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_PowerEnd1_Inplace.FBX using Guid(d0d532ea2cb2a2c4e830b41c1f81a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d0bb54bd98bf424735b3e5e6b35b9c') in 0.015662 seconds 
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack03_1_Inplace.FBX
+  artifactKey: Guid(fc2cb8199c4cf3243a9555da8963d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack03_1_Inplace.FBX using Guid(fc2cb8199c4cf3243a9555da8963d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03d517c8304c8a4a292d65fef3959ea') in 0.016538 seconds 
+  Import took 0.019485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Start_1_Inplace.FBX
+  artifactKey: Guid(fe4fadc6a6ca3ba4ba6d08f5edaa6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_L_Start_1_Inplace.FBX using Guid(fe4fadc6a6ca3ba4ba6d08f5edaa6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3875699dea32305b4c08efd91d4f2ca1') in 0.009817 seconds 
+  Import took 0.012971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_Start_Inplace.FBX
+  artifactKey: Guid(0628b3180cc8804418c22605bb57f1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Whirlwind_Start_Inplace.FBX using Guid(0628b3180cc8804418c22605bb57f1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ebc9e2eedc4f51474a356962bfd33f') in 0.009432 seconds 
+  Import took 0.012430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Enhance_Inplace.FBX
+  artifactKey: Guid(f5b16c2e9dfe94544a00d6ba2112e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_FocusEnergy_R_Enhance_Inplace.FBX using Guid(f5b16c2e9dfe94544a00d6ba2112e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caab603656623a323a4c4270791a06ed') in 0.010841 seconds 
+  Import took 0.013767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack11_Inplace.FBX
+  artifactKey: Guid(d45f0d9a90584f547aa9766871df07ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack11_Inplace.FBX using Guid(d45f0d9a90584f547aa9766871df07ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f6f6dc6f4c61b7558209ef2c8d5af1') in 0.019489 seconds 
+  Import took 0.022395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Ambush_Inplace.FBX
+  artifactKey: Guid(3c9917cc9bec2da419beca8af585bcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack_Ambush_Inplace.FBX using Guid(3c9917cc9bec2da419beca8af585bcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1a5fcc73f8adf2aac59677a487a4f3') in 0.015137 seconds 
+  Import took 0.017988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack11_Inplace.FBX
+  artifactKey: Guid(d45f0d9a90584f547aa9766871df07ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack11_Inplace.FBX using Guid(d45f0d9a90584f547aa9766871df07ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f6f6dc6f4c61b7558209ef2c8d5af1') in 0.015196 seconds 
+  Import took 0.018199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack02_Inplace.FBX
+  artifactKey: Guid(a20dd170762f1a24287b9ac50ece2105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack02_Inplace.FBX using Guid(a20dd170762f1a24287b9ac50ece2105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e56edd4d0ee77611c9cc554bcee47d1') in 0.014399 seconds 
+  Import took 0.018304 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005866 seconds.
+Registered in 0.003081 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -142,16 +518,375 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  0.825 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.4 MB.
+System memory in use before: 84.7 MB.
+System memory in use after: 84.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 1.953000 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.695000 ms  DeleteObjects: 0.052700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.162400 ms (FindLiveObjects: 0.150600 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.905800 ms  DeleteObjects: 0.051300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.835421 seconds.
+  path: Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack01_Inplace 1.FBX
+  artifactKey: Guid(9e1b6c54798bc57429f7ea7375fa7d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset/Animation/Inplace/Battle/GreatSword_Attack01_Inplace 1.FBX using Guid(9e1b6c54798bc57429f7ea7375fa7d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae79c85a54ffd67406e4d21d48bae69') in 0.031169 seconds 
+  Import took 0.034434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.883642 seconds.
+  path: Assets/GreatSword_Animset
+  artifactKey: Guid(7ec89936e8edae2489a7fa1b7d653909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreatSword_Animset using Guid(7ec89936e8edae2489a7fa1b7d653909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7924a6b48a5a2d6dbc8c4ee71ca0e6') in 0.005764 seconds 
+  Import took 0.008508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.114970 seconds.
+  path: Assets/PolygonFantasyRivals
+  artifactKey: Guid(de8d30dffdfac9d419a4ac81cdceaf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals using Guid(de8d30dffdfac9d419a4ac81cdceaf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7789750d30898dceab2aa53cfb4b073') in 0.007012 seconds 
+  Import took 0.009801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508716 seconds.
+  path: Assets/PolygonFantasyRivals/Prefabs
+  artifactKey: Guid(cdb2b83d22135a24887370c9627ea9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Prefabs using Guid(cdb2b83d22135a24887370c9627ea9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe093032cfa178b86a02809926e85b0') in 0.006438 seconds 
+  Import took 0.009132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.800685 seconds.
+  path: Assets/PolygonFantasyRivals/Models/Characters.fbx
+  artifactKey: Guid(be73df03abf02284486d1afabcf5d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Models/Characters.fbx using Guid(be73df03abf02284486d1afabcf5d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ae238270f17813e6b66f69557e1a57') in 0.153590 seconds 
+  Import took 0.156753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.674262 seconds.
+  path: Assets/PolygonFantasyRivals/Models/SM_Prop_Pouch_Bag_01.fbx
+  artifactKey: Guid(be60a5fbba052de45bf1a057bd267c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Models/SM_Prop_Pouch_Bag_01.fbx using Guid(be60a5fbba052de45bf1a057bd267c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a03587656ec73baa5f9ea27ec5ce3') in 0.014261 seconds 
+  Import took 0.017041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.048855 seconds.
+  path: Assets/PolygonFantasyRivals/Models/SM_Wep_Troll_01.fbx
+  artifactKey: Guid(86cb8764a08545e448b4a21250614374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Models/SM_Wep_Troll_01.fbx using Guid(86cb8764a08545e448b4a21250614374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7ffa6a09e562f03b21612d9e15dc6') in 0.014940 seconds 
+  Import took 0.017739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.679960 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/FantasyRivals_01_A.mat
+  artifactKey: Guid(caf01dd5152f3934d8079e6160aa3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/FantasyRivals_01_A.mat using Guid(caf01dd5152f3934d8079e6160aa3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c186ba60b1b4d21621b64d424eeb7551') in 0.032646 seconds 
+  Import took 0.035886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/PolygonFantasyRivals/Models/Materials/FantasyRivals_Justin_Main_01.mat
+  artifactKey: Guid(578192b31c0abb6428827453bfc2cc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Models/Materials/FantasyRivals_Justin_Main_01.mat using Guid(578192b31c0abb6428827453bfc2cc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4163896b1b8566487efe77e2c7e39806') in 0.008751 seconds 
+  Import took 0.011499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/PolygonFantasyRivals/_Demo/Ground.mat
+  artifactKey: Guid(f814648823e741444bb5f0103bcb8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/_Demo/Ground.mat using Guid(f814648823e741444bb5f0103bcb8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67231c897b5c0fc2f71b57d9f1a37ee1') in 0.009381 seconds 
+  Import took 0.012601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_02_B.mat
+  artifactKey: Guid(ba598f8b718657f4c840aa35858f65e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_02_B.mat using Guid(ba598f8b718657f4c840aa35858f65e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e692135473b6801cc5351891feb41ca') in 0.012294 seconds 
+  Import took 0.014991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_02_D.mat
+  artifactKey: Guid(f827453077651d2439c9afab3123a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_02_D.mat using Guid(f827453077651d2439c9afab3123a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c045daf7f9f0558d59df9186f553fa3') in 0.015492 seconds 
+  Import took 0.018426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX_Blank.mat
+  artifactKey: Guid(d167ef288d96bb84ca9743bf908f53cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX_Blank.mat using Guid(d167ef288d96bb84ca9743bf908f53cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99209efe51f561c830efd51b1c555667') in 0.034521 seconds 
+  Import took 0.038176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Misc/FX_Lighting.mat
+  artifactKey: Guid(125544cbb97615848a5d285350b798fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Misc/FX_Lighting.mat using Guid(125544cbb97615848a5d285350b798fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51b48be193de0cb837050c82d112603') in 0.010311 seconds 
+  Import took 0.013702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_B.mat
+  artifactKey: Guid(8489c763c4b233c4396c53479de34c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_B.mat using Guid(8489c763c4b233c4396c53479de34c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64511208507dd0d2580b5ed4beda6c6') in 0.011926 seconds 
+  Import took 0.014769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX 1.mat
+  artifactKey: Guid(df0b4a881566ec742967ecb1d5345652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX 1.mat using Guid(df0b4a881566ec742967ecb1d5345652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfdbc5e5f7d21ec725de7d48c9c1977') in 0.030525 seconds 
+  Import took 0.033226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_01_B.mat
+  artifactKey: Guid(b5b4c9a60b8ddf94e9882df9f54296d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_01_B.mat using Guid(b5b4c9a60b8ddf94e9882df9f54296d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa08db8317856acc411f10772ebba0cf') in 0.011714 seconds 
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_04_B.mat
+  artifactKey: Guid(71af01d024a08ba43a3ffe477ac9402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_04_B.mat using Guid(71af01d024a08ba43a3ffe477ac9402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2652d00f1ac28545999a3991702e3ce') in 0.011632 seconds 
+  Import took 0.014390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/FantasyRivals_01_A.mat
+  artifactKey: Guid(caf01dd5152f3934d8079e6160aa3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/FantasyRivals_01_A.mat using Guid(caf01dd5152f3934d8079e6160aa3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c186ba60b1b4d21621b64d424eeb7551') in 0.013267 seconds 
+  Import took 0.016137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_04_C.mat
+  artifactKey: Guid(549c7e494b673714db1911b6b82d5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_04_C.mat using Guid(549c7e494b673714db1911b6b82d5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d796a31cfbed4644058073b8e8ecc4') in 0.011217 seconds 
+  Import took 0.014189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_04_D.mat
+  artifactKey: Guid(16952bd17b1b70346b80a924c7f9bac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_04_D.mat using Guid(16952bd17b1b70346b80a924c7f9bac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35aa29581b3813739475e420d1b0cdff') in 0.011978 seconds 
+  Import took 0.014808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Misc/FX_SphereGlow.mat
+  artifactKey: Guid(83bf344aa66f8704ab56cddca307d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Misc/FX_SphereGlow.mat using Guid(83bf344aa66f8704ab56cddca307d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e5d004c12a513019f95835bdb6f45f') in 0.009746 seconds 
+  Import took 0.012863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_01_D.mat
+  artifactKey: Guid(25e01712a1f68ef48a57dea7551cd8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_01_D.mat using Guid(25e01712a1f68ef48a57dea7551cd8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a77dfac8c7e76fd5bbb9ed998c3a54') in 0.011322 seconds 
+  Import took 0.014148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_02_C.mat
+  artifactKey: Guid(e1258431c04b0d9449fe033851ba9ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_02_C.mat using Guid(e1258431c04b0d9449fe033851ba9ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5417d9688fed2f651eb19012245fadb0') in 0.010781 seconds 
+  Import took 0.014282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_D.mat
+  artifactKey: Guid(b406b530e4642e247840710040530bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_D.mat using Guid(b406b530e4642e247840710040530bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8927b00f8ac5d723f23981ad2fe93cf5') in 0.010862 seconds 
+  Import took 0.013896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_C.mat
+  artifactKey: Guid(812036f620754c34aa91753182721f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_C.mat using Guid(812036f620754c34aa91753182721f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792537cdf8d9f1bda99732f70324fa4') in 0.011601 seconds 
+  Import took 0.014879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_01_C.mat
+  artifactKey: Guid(d4faeff94cff2794a82d1a9a3b9d4e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_01_C.mat using Guid(d4faeff94cff2794a82d1a9a3b9d4e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85ef9d5efc4afc1ca371d935ec24fad') in 0.011080 seconds 
+  Import took 0.013971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX.mat
+  artifactKey: Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX.mat using Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2e55289dc2936b6fc961e8e82d93cf') in 0.009451 seconds 
+  Import took 0.012622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_C.mat
+  artifactKey: Guid(812036f620754c34aa91753182721f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Alts/FantasyRivals_03_C.mat using Guid(812036f620754c34aa91753182721f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792537cdf8d9f1bda99732f70324fa4') in 0.011107 seconds 
+  Import took 0.014626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX.mat
+  artifactKey: Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Materials/Misc/Polygon_FX.mat using Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2e55289dc2936b6fc961e8e82d93cf') in 0.005116 seconds 
+  Import took 0.007956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.386913 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_01_D.png
+  artifactKey: Guid(0019f5b7a4ddc814db771d7eb84cec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_01_D.png using Guid(0019f5b7a4ddc814db771d7eb84cec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2fd4a9eb9c9d3011f6d87d319caf6e') in 0.017594 seconds 
+  Import took 0.021097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015041 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_01_D.png
+  artifactKey: Guid(0019f5b7a4ddc814db771d7eb84cec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_01_D.png using Guid(0019f5b7a4ddc814db771d7eb84cec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2fd4a9eb9c9d3011f6d87d319caf6e') in 0.009316 seconds 
+  Import took 0.012580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548539 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_01_C.png
+  artifactKey: Guid(fdfbf19f095960f42b42db6196bc3729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_01_C.png using Guid(fdfbf19f095960f42b42db6196bc3729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92d4f98032307e744d85e151af752d8') in 0.014728 seconds 
+  Import took 0.017552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.160330 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_02_B.png
+  artifactKey: Guid(482c10d88048ac5408313e65a78284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_02_B.png using Guid(482c10d88048ac5408313e65a78284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8687120e62dfe149c7de020443e0cfc2') in 0.012110 seconds 
+  Import took 0.014942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_02_B.png
+  artifactKey: Guid(482c10d88048ac5408313e65a78284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_02_B.png using Guid(482c10d88048ac5408313e65a78284c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8687120e62dfe149c7de020443e0cfc2') in 0.009615 seconds 
+  Import took 0.012686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.051248 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_04_B.png
+  artifactKey: Guid(9e46769ce9171d44e88abb573714a341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_04_B.png using Guid(9e46769ce9171d44e88abb573714a341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcafae9ec74fd5bf80b9ecff8db20ab7') in 0.010172 seconds 
+  Import took 0.013587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008098 seconds.
+  path: Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_04_B.png
+  artifactKey: Guid(9e46769ce9171d44e88abb573714a341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Textures/FantasyRivals_Texture_04_B.png using Guid(9e46769ce9171d44e88abb573714a341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcafae9ec74fd5bf80b9ecff8db20ab7') in 0.009819 seconds 
+  Import took 0.012670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.068543 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(22ef1c34076d5c6448c730d32a7a1b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(22ef1c34076d5c6448c730d32a7a1b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb3dd67d4907b9e3329c02b47c14e17') in 0.002617 seconds 
+  Import took 0.005734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(22ef1c34076d5c6448c730d32a7a1b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(22ef1c34076d5c6448c730d32a7a1b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb3dd67d4907b9e3329c02b47c14e17') in 0.001756 seconds 
+  Import took 0.004574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.823124 seconds.
+  path: Assets/PolygonFantasyRivals/Models/Characters 1.fbx
+  artifactKey: Guid(8eb9a51d25ec70e46ad5124e16f0657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyRivals/Models/Characters 1.fbx using Guid(8eb9a51d25ec70e46ad5124e16f0657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20489a785a0b6a7a2f454c3f89e5436') in 0.072529 seconds 
+  Import took 0.075752 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003423 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 2.303900 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.056400 ms MarkObjects: 2.033000 ms  DeleteObjects: 0.059100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
